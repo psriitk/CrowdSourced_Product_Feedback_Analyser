@@ -1,0 +1,105 @@
+{
+  "battery": [
+    "battery life",
+    "battery",
+    "charge",
+    "charging",
+    "power"
+  ],
+  "screen": [
+    "screen",
+    "display",
+    "panel",
+    "brightness",
+    "contrast"
+  ],
+  "sound": [
+    "sound",
+    "audio",
+    "speaker",
+    "volume",
+    "bass",
+    "treble"
+  ],
+  "microphone": [
+    "microphone",
+    "mic",
+    "voice"
+  ],
+  "camera": [
+    "camera",
+    "photo",
+    "image",
+    "video",
+    "lens"
+  ],
+  "build quality": [
+    "build quality",
+    "materials",
+    "plastic",
+    "metal",
+    "finish"
+  ],
+  "performance": [
+    "performance",
+    "speed",
+    "lag",
+    "snappy",
+    "benchmark"
+  ],
+  "storage": [
+    "storage",
+    "memory",
+    "ssd",
+    "hdd",
+    "space"
+  ],
+  "connectivity": [
+    "bluetooth",
+    "wifi",
+    "wireless",
+    "connectivity",
+    "pairing"
+  ],
+  "software": [
+    "software",
+    "firmware",
+    "drivers",
+    "os",
+    "updates"
+  ],
+  "price": [
+    "price",
+    "cost",
+    "value",
+    "worth"
+  ],
+  "packaging": [
+    "packaging",
+    "box",
+    "sealed"
+  ],
+  "shipping": [
+    "shipping",
+    "delivery",
+    "arrived"
+  ],
+  "warranty": [
+    "warranty",
+    "guarantee",
+    "return"
+  ],
+  "customer service": [
+    "customer service",
+    "support",
+    "service",
+    "help"
+  ],
+  "accessories": [
+    "accessories",
+    "cables",
+    "charger",
+    "case",
+    "remote"
+  ]
+}

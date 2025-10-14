@@ -1,0 +1,19 @@
+# Prompts and retriever weights
+retriever:
+  k_dense: 20
+  k_sparse: 40
+  k_kg: 40
+  alpha_dense: 0.5
+  beta_sparse: 0.35
+  gamma_kg: 0.15
+  max_final: 20
+
+llm:
+  # If OPENAI_API_KEY present, LangChain will use OpenAI; otherwise falls back to local HF summarizer
+  provider: auto
+  temperature: 0.2
+  max_tokens: 512
+
+display:
+  show_snippets: true
+  show_citations: true

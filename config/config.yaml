@@ -1,0 +1,59 @@
+# Global configuration for paths and defaults
+data:
+  raw_path: data/Electronics_5.json.gz
+  cleaned_csv: data/cleaned_reviews.csv
+  removed_csv: data/removed_reviews.csv
+  language_stats: data/language_stats.json
+  chunked_csv: data/chunked_reviews.csv
+  aspect_seed_terms: config/aspect_seed_terms.json
+  aspect_sentiment: data/aspect_sentiment.json
+
+embeddings:
+  id_to_text_map: embeddings/id_to_text_map.json
+  dense_memmap: embeddings/roberta_embeddings.memmap
+  tfidf_vectorizer: embeddings/tfidf_vectorizer.pkl
+  tfidf_matrix: embeddings/tfidf_matrix.npz
+
+indexes:
+  faiss_index: indexes/index.faiss
+
+graph:
+  pickle_path: graph/knowledge_graph.pkl
+
+chatbot:
+  config_yaml: config/chatbot_config.yaml
+
+defaults:
+  # small laptop demo
+  sample_rows: 10000
+  chunk_tokens: 384
+  chunk_overlap: 64
+  embedding_model_laptop: sentence-transformers/all-distilroberta-v1
+  embedding_model_gpu: sentence-transformers/all-roberta-large-v1
+  absa_aspects:
+    - battery
+    - screen
+    - display
+    - sound
+    - speaker
+    - microphone
+    - camera
+    - build quality
+    - materials
+    - durability
+    - ergonomics
+    - performance
+    - speed
+    - storage
+    - connectivity
+    - bluetooth
+    - wifi
+    - software
+    - os
+    - price
+    - value
+    - packaging
+    - shipping
+    - warranty
+    - customer service
+    - accessories
